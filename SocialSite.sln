@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialSite", "SocialSite\SocialSite.csproj", "{A3EC45D0-48EB-45B0-A58E-A8FE5B11A781}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{17BB1E9C-268B-47FD-8F34-C070145F337F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A3EC45D0-48EB-45B0-A58E-A8FE5B11A781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3EC45D0-48EB-45B0-A58E-A8FE5B11A781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3EC45D0-48EB-45B0-A58E-A8FE5B11A781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BB1E9C-268B-47FD-8F34-C070145F337F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BB1E9C-268B-47FD-8F34-C070145F337F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BB1E9C-268B-47FD-8F34-C070145F337F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BB1E9C-268B-47FD-8F34-C070145F337F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
