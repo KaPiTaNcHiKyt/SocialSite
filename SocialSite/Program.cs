@@ -1,7 +1,14 @@
+using DataAccessLayer;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<SocialSiteDbContext>(options =>
+{
+    options.UseNpgsql("");
+});
 
 var app = builder.Build();
 

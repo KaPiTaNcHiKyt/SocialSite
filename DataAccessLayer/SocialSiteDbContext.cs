@@ -1,0 +1,21 @@
+using DataAccessLayer.Configurations;
+using DataAccessLayer.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace DataAccessLayer;
+
+public class SocialSiteDbContext(DbContextOptions<SocialSiteDbContext> options) : DbContext(options)
+{
+    public DbSet<UserEntity> Users { get; set; }
+    public DbSet<MessageEntity> Messages { get; set; }
+    public DbSet<ChatEntity> Chats { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfiguration(new UserConfiguration());
+        modelBuilder.ApplyConfiguration(new MessageConfiguration());
+        modelBuilder.ApplyConfiguration(new ChatConfiguration());
+        
+        base.OnModelCreating(modelBuilder);
+    }
+}

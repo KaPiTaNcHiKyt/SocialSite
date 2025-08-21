@@ -9,9 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa90682-fcc1-418f-a1cd-da30593cbcb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialSite.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SocialSite.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Configurations/ChatConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Configurations/MessageConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Configurations/UserConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Models/ChatEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Models/MessageEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Models/UserEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccessLayer/SocialSiteDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SocialSite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SocialSite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/DataAccessLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/DataAccessLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialSite/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SocialSite/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialSite/SocialSite.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SocialSite/SocialSite.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755679957399</updated>
       <workItem from="1755679958548" duration="4686000" />
-      <workItem from="1755691633217" duration="5671000" />
+      <workItem from="1755691633217" duration="9844000" />
     </task>
     <servers />
   </component>
